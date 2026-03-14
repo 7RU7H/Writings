@@ -73,3 +73,28 @@ $: universeHack()
 
 // example variations
 // $: universeHack({ bpm:148, intensity:1.2, glitch:0.4 })
+//
+//
+
+// Want to simulate the sound of atoms dying in space
+sound("noise")
+  .decay(0.2)
+  .gain(0.7)
+  .room(0.9)
+  .size(0.95)
+  .speed("1.5 0.8 2")
+
+// Got particle bursts from same prompt as ADiS
+stack(
+  sound("noise").decay(0.1).gain(0.5),
+  sound("click").speed("2 3 5").gain(0.3)
+)
+.room(0.95)
+.size(1)
+
+// Quantum / Glitch sound also with ADiS
+sound("noise")
+  .lpf(range(200,4000).slow(4))
+  .speed(irand(4))
+  .decay(0.15)
+  .room(0.9)
