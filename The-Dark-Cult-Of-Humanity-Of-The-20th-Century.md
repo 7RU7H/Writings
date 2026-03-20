@@ -26,7 +26,7 @@ wine $filepathtothevampire.exe -game Unofficial_Patch -full -width 1920 -height 
 11) install lutris  
 12) make a custom entry with add locally installed game  
 13) select a name of your liking  
-14) select as rinner wine  
+14) select as runner wine  
 15) browse with the executable to the filepath of vampire.exe  
 16) add the following parameters under arguments  
 -game Unofficial_Patch -full -width 1920 -height 1080  
@@ -204,6 +204,9 @@ The workshop
 
 Chemicals of damnation 
 - Long term Viagra usage actually makes your dick bigger, but its a pill and have other chemical side affects like withering and lack of nerve growth. This will also lead to you thoughts being deducible from behind as your skin will move you arsehole up your spine.
+
+The abortion of Life
+- Coercise abortions to gain the STEM cells to later be injected for a healthier life
 
 Nale
 
